@@ -1,0 +1,82 @@
+div {
+    text-align: center;
+    overflow: hidden;
+    border: 2px solid black;
+    width: 400px;
+    background-color: rgb(42, 127, 97);
+    border-radius: 40px;
+}
+
+img {
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-family: Impact;
+    font-size: 50pt;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+
+a {
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    font: courier;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, );
+    font-family: 'Courier New', Courier;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(49, 122, 107);
+}
+
+.cartel {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px 30px;
+    text-align: center;
+    max-width: 500px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.cartel h1 {
+    font-size: 5rem;
+    color: rgb(49, 122, 107);
+    margin-bottom: 20px;
+}
+
+.cartel p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: black;
+}
+
+.cartel h3 {
+    font-size: 2rem;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
