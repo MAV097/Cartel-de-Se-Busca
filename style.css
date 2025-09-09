@@ -11,9 +11,10 @@ img {
     width: 300px;
     border: 1px solid black;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 100%;
     object-fit: cover;
     margin-bottom: 15px;
+    background-color: rgb(193, 242, 193);
 }
 
 h1 {
@@ -41,7 +42,7 @@ a {
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, );
+    background: linear-gradient(135deg, rgb(56, 142, 139));
     font-family: 'Courier New', Courier;
     display: flex;
     justify-content: center;
@@ -76,7 +77,7 @@ body {
 .cartel h3 {
     font-size: 2rem;
     color: black;
-    background-color: white;
     text-align: center;
 }
+
 
